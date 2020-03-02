@@ -1,14 +1,42 @@
 <div class="container">
-    <div class="contenido">
-        <div class="head">
-            Ingresa aquí!
+
+    <!-- Modal content-->
+    <div class="modal-content">
+        <div class="modal-header">
+            <div class="row1 imagen">
+                <img src="../../assets/img/57104 (4).png" alt="">
+            </div>
+
+            <div class="row2 titulo">
+                <h4 class="modal-title">Inicia sesión aquí</h4>
+            </div>
         </div>
-        <div class="body">
-            <input type="text" placeholder="Usuario...">
-            <input type="password" placeholder=" Contraseña...">
+        <div class="modal-body">
+            <form action="">
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="fas glyphicon-user"></i></span>
+                    <input id="email" type="text" class="form-control" name="user" placeholder="Nombre de usuario...">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                    <input id="password" type="password" class="form-control" name="password" placeholder="Contraseña...">
+                </div>
+            </form>
+
+            <div class="row" id="redireccionarcontraseña">
+                <span>¿Has olvidado tu contraseña? <a href="#">Ingresa aquí</a> </span>
+            </div>
         </div>
-        <div class="footer">
-            ¿Has olvidado tu contraseña? <a>Ingresa aquí</a>
+
+        <div class="modal-footer">
+            <div class="row">
+                <div class="col-sm-6">
+                    <button class="btn btn-info">Ingresar</button>
+                </div>
+                <div class="col-sm-6">
+                    <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                </div>
+            </div>
         </div>
     </div>
 </div>

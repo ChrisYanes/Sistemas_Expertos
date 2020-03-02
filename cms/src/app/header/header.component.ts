@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+declare var $: any;
+
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -12,4 +14,13 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  showLogin(){
+    $('.modal.fade').modal('show');
+  }
+
+  // showRegister(){
+  // //  $('.ui.modal.registro-modal').modal('show');
+  // }
+
 }
+

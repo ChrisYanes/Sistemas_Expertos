@@ -1,11 +1,31 @@
 <!-- HEADER -->
 <div class="toolbar">
-    <img id="logo" routerLink="/" alt="DEVIACAT Logo" src="../assets/img/57104 (4).png" />
-    <span> DEVIACAT </span>
+    <div class="contiene-logo" style="cursor: pointer;" routerLink="/">
+        <img id="logo" alt="Logo" src="../assets/img/57104 (4).png" />
+        <span> DEVIACAT </span>
+    </div>
+
     <div class="spacer"></div>
     <div>
-        <a routerLink="/registro">Registrar</a>
-        <a routerLink="/login">Ingresar</a>
-        <a routerLink="/login">Descargar</a>
+        <a data-toggle="modal" data-target="#myModalReg">Registrar</a>
+        <a data-toggle="modal" data-target="#myModal">Ingresar</a>
+        <a href="https://github.com/ChrisYanes/Sistemas_Expertos" target="_blank">Descargar</a>
+    </div>
+</div>
+
+
+<!--++++++++++++++++++++++++++++++++++++++++++++++++++++MODAL LOGIN (contenido en el componente Login)++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+        <app-login></app-login>
+    </div>
+
+</div>
+
+<!--++++++++++++++++++++++++++++++++++++++++++++++MODAL REGISTRO (contenido en el componente Register)+++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+<div class="modal fade" id="myModalReg" role="dialog">
+    <div class="modal-dialog">
+        <app-registro></app-registro>
     </div>
 </div>
