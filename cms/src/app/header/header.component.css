@@ -80,7 +80,7 @@ p {
 }
 
 .content {
-    display: absolute;
+    display: flex;
     /*era flex*/
     margin: 32px auto;
     padding: 0 16px;

@@ -1,0 +1,125 @@
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 15rem;
+    position: absolute;
+    z-index: 1;
+    /* top: 0; */
+    left: 0;
+    background-color: #F37335;
+    overflow-x: hidden;
+    padding-top: 5rem;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    display: block;
+    height: 3.5rem;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  #salir{
+      
+      bottom:0 !important;
+  }
+  
+.toolbar {
+    height: 5rem;
+    /* margin: -8px; */
+    display: flex;
+    align-items: center;
+    background: #FDC830;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F37335, #FDC830);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F37335, #FDC830);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    font-weight: 600;
+    font-family: 'Baloo' !important;
+    font-size: 50px !important;
+    color: #222222;
+    padding-right: 15px;
+    -webkit-box-shadow: 0 10px 5px #a39e9e !important;
+    -moz-box-shadow: 0 10px 5px #a39e9e !important;
+    box-shadow: 0 10px 5px #a39e9e !important;
+}
+
+.btn .btn:not(.btn-link):hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 17px rgba(black, 0.35);
+}
+
+.toolbar .logo::-ms-ticks-after {
+    border-color: none;
+}
+
+.toolbar img {
+    margin: 0 16px;
+}
+
+.toolbar img:hover {
+    opacity: 0.8;
+}
+
+.toolbar #logo {
+    width: 50px;
+    height: 50px;
+    margin: 0 16px;
+}
+
+.toolbar logo:hover {
+    opacity: 0.8;
+}
+
+.btn {
+    margin-left: 8px;
+    border: 1px solid rgb(27, 31, 35);
+    padding: 3px 10px;
+}
+
+.content {
+    display: absolute;
+    /*era flex*/
+    margin: 32px auto;
+    padding: 0 16px;
+    width: 100%;
+    /* flex-direction: column;
+    align-items: center; */
+}
+
+
+.toolbar a,
+a:visited,
+a:hover {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 1rem;
+}
+
+.btn:not(.btn-link):hover {
+    color: black;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 17px rgba(black, 0.35);
+    border: none;
+}
+
+a:hover {
+    color: black;
+    /*transform: translateY(16px);*/
+    box-shadow: 0 4px 17px rgba(black, 0.35);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+
