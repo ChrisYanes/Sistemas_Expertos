@@ -1,16 +1,8 @@
-.contenedor-dash{
+.contenedor-dismissed{
     margin-left: 12rem;
-     width: Calc(100%-25rem); 
-     margin-top: 3rem;
+    width: Calc(100%-30rem) !important;
+    margin-top: 3rem;
 }
-/* 
-#dash{
-    max-height: Calc(100% - 20rem) !important;
-  overflow-y: scroll;
-  position: relative;
-   scrollbar-width: thin;
-  scrollbar-color: #11b6af87 #80808052;
-} */
 
 .row {
     display: -ms-flexbox; /* IE10 */
@@ -31,8 +23,8 @@
   }
   
   .col-75 {
-    -ms-flex: 75%; /* IE10 */
-    flex: 75%;
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
   }
   
   .col-25,

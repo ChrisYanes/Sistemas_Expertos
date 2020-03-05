@@ -34,7 +34,7 @@ body {
   
 .toolbar {
     height: 5rem;
-    /* margin: -8px; */
+    width: 100%;
     display: flex;
     align-items: center;
     background: #FDC830;
