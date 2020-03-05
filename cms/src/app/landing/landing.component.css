@@ -26,17 +26,20 @@ h1 {
     font-size: 48px;
     line-height: 56px;
     letter-spacing: 0;
+    font: 'Baloo'!important;
+    font-weight: bold;
 }
 
 p {
     text-align: left;
     font-size: 2rem;
-    color: #F47835;
+    color: black;
     font-family: Recoleta, Georgia, "Times New Roman", Times, serif;
     font-weight: 500;
-    font-size: 48px;
+    font-size: 40px;
     line-height: 56px;
     letter-spacing: 0;
+    margin-top: 30px;
 }
 
 #primero {
@@ -58,7 +61,7 @@ p {
 #techs {
     width: 20rem;
     height: 20rem;
-    border-radius: 50%;
+    border-radius: 35%;
     align-items: center;
     margin-left: 60px;
     margin-top: 2.5rem;
