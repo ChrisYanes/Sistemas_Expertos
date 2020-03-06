@@ -1,5 +1,5 @@
 <app-homeboard></app-homeboard>
-<div class="contenedor-dash">
+<div class="contenedor-privacity">
 
     <div class="row">
         <div class="col-75">
@@ -8,32 +8,44 @@
 
                     <div class="row">
                         <div class="col-50">
-                            <h3>Perfil</h3>
+                            <h3>Información de uso</h3>
                             <hr>
                             <div class="row">
-                                <div class="col-sm-6">
-                                    <img src="../../../assets/img/57104 (4).png" alt="usuario">
-                                </div>
-                                <div class="col-sm-6">
-                                    <input type="text" id="fname" name="firstname" placeholder="Nombre">
-
-                                    <input type="text" id="lname" name="lastname" placeholder="Apellido">
-
+                                <div class="col-sm-12">
+                                    <p>Estamos comprometidos con tu privacidad y seguridad.</p>
+                                    <p>La informacion que elijas compartir nos ayuda a: mejorar nuestros productos,
+                                        hacer que el marketing sea más interesante para ti, personalizar la experiencia
+                                        de Deviacat-cms y mucho más, tal como puedes encontrar con más detalle en
+                                        nuestra política de privacidad.</p>
+                                    <p>Además de nuestra herramienta de análisis, utilizamos otras herramientas de
+                                        seguimiento, algunas de terceros. Obtén información sobre ellas y cómo
+                                        controlarlas.</p>
                                 </div>
                             </div>
-
-                            <input type="text" id="pname" name="publicname" placeholder="Nombre público">
-
-                            <label for="adr"> Sobre mí</label>
-                            <textarea name="" id="" cols="140" rows="5"></textarea>
-
-
+                            <hr>
                             <div class="row">
                                 <div class="col-50">
-                                    <label for="expyear">Esta información se mostrará públicamente en tu perfil</label>
-                                </div>
-                                <div class="col-50">
-                                    <input type="button" value="Guardar información del perfil">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <label class="switch">
+                                                <input type="checkbox" checked>
+                                                <span class="slider round"></span>
+                                            </label>
+                                        </div>
+                                        <div class="col-sm-9">
+                                            Usa nuestra herramienta de análisis para compartir información sobre el uso
+                                            que
+                                            haces de los servicios mientras estás conectado a tu cuenta de
+                                            Deviacat-cms.
+                                            Más información
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <input style="margin-left: 40rem; background-color: #FDC830;" type="submit"
+                                                id="boton" value="Guardar la configuración de la privacidad" disabled>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -47,18 +59,30 @@
     <div class="row" style="margin-top: 1rem;">
         <div class="col-75">
             <div class="container">
-                <form >
+                <form>
                     <div class="row">
-                        <div class="col-sm-6">
-                            <h4>Enlaces del perfil</h4>
+                        <div class="col-sm-12">
+                            <h4>Apéndice del procesamiento de datos</h4>
                         </div>
-                        <div class="col-sm-6">
-                            <input type="button" value="Añadir enlace">
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p>Un apéndice de procesamiento de datos (DPA) permite a los sitios web y a las empresas
+                                asegurar a los clientes, proveedores y socios que su procesamiento de datos cumple con
+                                la ley.</p>
+                            <p>Nota: La mayoría de los propietarios de sitios gratuitos o aficionados no necesitan un
+                                DPA.</p>
+                            <p>El hecho de tener un DPA no cambia ninguna de nuestras prácticas de privacidad y
+                                seguridad para los visitantes del sitio. Todas las personas que usan nuestro servicio
+                                tienen los mismos altos estándares de privacidad y seguridad.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <button style="margin-left: 40rem; background-color: #FDC830;">Solicitar un DPA</button>
                         </div>
                     </div>
                 </form>
-                <hr>
-                <label for="">Administra que sitios aparecen en tu perfil</label>
             </div>
         </div>
     </div>

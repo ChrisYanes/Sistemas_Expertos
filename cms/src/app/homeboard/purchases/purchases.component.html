@@ -1,1 +1,102 @@
-<p>purchases works!</p>
+<app-homeboard></app-homeboard>
+<div class="contenedor-purchases">
+
+    <div class="row">
+        <div class="col-75">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3"> 
+                        <a (click)="showHideDiv('divMsg')">Compras</a>
+                    </div>
+                    <div class="col-sm-3">
+                        <a (click)="showHideDiv2('divMsg2')">Historial de facturación</a>
+                    </div>
+                    <div class="col-sm-3">
+                        <a>Próximos Cargos</a>
+                    </div>
+                    <div class="col-sm-3">
+                        <a>Otros sitios web</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row" style="margin-top: 1rem;" id="det-planilla">
+        <div class="col-75">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="../../../assets/img/tech-support.jpg" alt="tech-support">
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="row">
+                            <h6>¿Necesitas un experto contigo?</h6>
+                        </div>
+                        <div class="row">
+                            <p>Ofrecemos sesiones de Inicio Rápido individuales para que alcances el éxito con tu sitio web. Haz clic en el botón para descubrir cómo podemos ayudarte durante nuestras llamadas de 45 minutos.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <button class="btn btn-danger">Más Información </button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <img src="../../../assets/img/57104 (5).png" alt="mejora">
+                    </div>
+                    <div class="col-sm-12">
+                        <h6>¿Quieres mejorar?</h6>
+                        <p>Nuestros planes permitirán que tu sitio tenga éxito. Encuentra el plan que se ajuste a tus necesidades.</p>
+                    </div>
+                    <div class="col-sm-12">
+                        <button>Mejora tu plan ahora</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row" style="margin-top: 1rem;" id="det-planilla2">
+        <div class="col-75">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="../../../assets/img/tech-support.jpg" alt="tech-support">
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="row">
+                            <h6>¿Hola?</h6>
+                        </div>
+                        <div class="row">
+                            <p>Ofrecemos sesiones de Inicio Rápido individuales para que alcances el éxito con tu sitio web. Haz clic en el botón para descubrir cómo podemos ayudarte durante nuestras llamadas de 45 minutos.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <button class="btn btn-danger">Más Información </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div id="divMsg" style="display:none">
+        <div class="button-back">
+            <button class="btn success" (click)="VolverMes('payroll-list')">
+                Volver
+            </button>
+        </div>
+    </div>
+    
+    <div id="divMsg2" style="display:none">
+        <div class="button-back">
+            <button class="btn success" (click)="VolverMes2('payroll-list')">
+                Volver :[]
+            </button>
+        </div>
+    </div>
+
+</div>
