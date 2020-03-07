@@ -6,7 +6,7 @@
             <div class="container" id="servicios-compra">
                 <div class="row">
                     <div class="col-sm-3"> 
-                        <a >Compras</a>
+                        <a routerLink="/purchases">Compras</a>
                     </div>
                     <div class="col-sm-3">
                         <a routerLink="/purchases/billing-history">Historial de facturación</a>
@@ -26,19 +26,39 @@
         <div class="col-75">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-4">
-                        <img src="../../../assets/img/tech-support.jpg" alt="tech-support">
+                    <div class="col-sm-1">
+                        <i class="fas fa-search fa-2x fa-lg" style="margin-left: 90%; margin-top: 10%;"></i>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-11">
+                        <input type="text" placeholder="Buscar entre los recibos...">
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <select class="custom-select custom-select-sm">
+                            <option selected>Fecha</option>
+                            <option value="1">Nuevos</option>
+                            <option value="2">Febrero-2020</option>
+                            <option value="3">Enero-2020</option>
+                            <option value="4">Diciembre-2019</option>
+                            <option value="5">Noviembre-2019</option>
+                            <option value="6">Octubre-2019</option>
+                            <option value="7">Antiguos</option>
+                          </select>
+                    </div>
+                    <div class="col-sm-6">
                         <div class="row" style="text-align: center !important;">
-                            <h6>¿Necesitas un experto contigo?</h6>
-                        </div>
-                        <div class="row" style="text-align:justify !important;">
-                            <p>Ofrecemos sesiones de Inicio Rápido individuales para que alcances el éxito con tu sitio web. Haz clic en el botón para descubrir cómo podemos ayudarte durante nuestras llamadas de 45 minutos.</p>
+                            <select class="custom-select custom-select-sm">
+                                <option selected>Todas las aplicaciones</option>
+                              </select>
                         </div>
                     </div>
-                    <div class="col-sm-4">
-                        <button type="button" style="width: 50%; height: 3.5rem; margin-left: 25%; margin-right: auto; margin-top: 10% !important;" class="btn-danger">Más Información </button>
+                </div>
+                <hr>
+                <div class="row" style="text-align:justify !important;">
+                    <div class="col-sm-12">
+                        <p>No se ha encontrado recibo.</p>
                     </div>
                 </div>
             </div>
@@ -49,15 +69,17 @@
         <div class="col-75">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12" style="margin-left: 43% !important;">
-                        <img src="../../../assets/img/57104 (5).png" alt="mejora">
+                    <div class="col-sm-6">
+                      <span>Gestiona tus tarjetas de crédito</span>
                     </div>
-                    <div class="col-sm-12">
-                        <h6 style="margin-left: 42% !important;">¿Quieres mejorar?</h6>
-                        <p style="margin-left: 18% !important;">Nuestros planes permitirán que tu sitio tenga éxito. Encuentra el plan que se ajuste a tus necesidades.</p>
+                    <div class="col-sm-6">
+                        <button type="button" routerLink="/billing-history/add-credit-card">Añade una tarjeta de crédito</button>
                     </div>
+                </div>
+                <hr>
+                <div class="row">
                     <div class="col-sm-12">
-                        <button style="margin-left: 40% !important;">Mejora tu plan ahora</button>
+                        <span>No tienes Tarjetas agregadas</span>
                     </div>
                 </div>
             </div>

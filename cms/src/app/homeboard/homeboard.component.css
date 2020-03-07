@@ -7,11 +7,18 @@ body {
     width: 15rem;
     position: absolute;
     z-index: 1;
-    /* top: 0; */
+    /* top: 0;  #F37335*/
     left: 0;
-    background-color: #F37335;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #F37335, #F47E34);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #F37335, #F47E34);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     overflow-x: hidden;
     padding-top: 5rem;
+    -webkit-box-shadow: 0 10px 10px #a39e9e !important;
+    -moz-box-shadow: 0 10px 10px #a39e9e !important;
+    box-shadow: 0 10px 10px #a39e9e !important;
   }
   
   .sidenav a {

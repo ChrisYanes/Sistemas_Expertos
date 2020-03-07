@@ -165,3 +165,16 @@
       margin-bottom: 20px;
     }
   } */
+
+
+  #payroll-list{
+    width: Calc(100% - 20rem) !important;
+    margin-left: 20%;
+    /* margin: 40% , 0% !important; */
+    height: Calc(100% - 10rem) !important;
+    overflow-y: scroll;
+    position: absolute;
+    scrollbar-width: thin;
+    scrollbar-color: #13929C #80808052 !important;
+    scrollbar-track-color: #11B6AF !important;
+ }

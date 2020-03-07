@@ -15,6 +15,11 @@ import { PrivacityComponent } from './homeboard/privacity/privacity.component';
 import { PurchasesComponent } from './homeboard/purchases/purchases.component';
 import { CodePageComponent } from './homeboard/code-page/code-page.component';
 import { SecurityComponent } from './homeboard/security/security.component';
+import { LogoutComponent } from './homeboard/logout/logout.component';
+import { BillingHistoryComponent } from './homeboard/billing-history/billing-history.component';
+import { NextChargesComponent } from './homeboard/next-charges/next-charges.component';
+import { OtherWebsitesComponent } from './homeboard/other-websites/other-websites.component';
+import { AddCreditCardComponent } from './homeboard/add-credit-card/add-credit-card.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +35,12 @@ import { SecurityComponent } from './homeboard/security/security.component';
     PrivacityComponent,
     PurchasesComponent,
     CodePageComponent,
-    SecurityComponent
+    SecurityComponent,
+    LogoutComponent,
+    BillingHistoryComponent,
+    NextChargesComponent,
+    OtherWebsitesComponent,
+    AddCreditCardComponent
   ],
   imports: [
     BrowserModule,

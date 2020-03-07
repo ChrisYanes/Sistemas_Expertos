@@ -13,6 +13,11 @@ import { CodePageComponent } from './homeboard/code-page/code-page.component';
 import { PurchasesComponent } from './homeboard/purchases/purchases.component';
 import { SecurityComponent } from './homeboard/security/security.component';
 
+import { BillingHistoryComponent } from './homeboard/billing-history/billing-history.component';
+import { NextChargesComponent } from './homeboard/next-charges/next-charges.component';
+import { OtherWebsitesComponent } from './homeboard/other-websites/other-websites.component';
+import { AddCreditCardComponent } from './homeboard/add-credit-card/add-credit-card.component';
+
 //import {  } from 'src/app/';
 const routes: Routes = [
   {
@@ -39,6 +44,20 @@ const routes: Routes = [
   {
     path: 'code-page', component: CodePageComponent
   },
+  {
+    path: 'purchases/next-charges', component: NextChargesComponent
+  },
+  {
+    path: 'purchases/billing-history', component: BillingHistoryComponent
+  },
+  {
+    path: 'purchases/other-websites', component: OtherWebsitesComponent
+  },
+
+  {
+    path: 'billing-history/add-credit-card', component: AddCreditCardComponent
+  },
+
   {
     path:'registro',
     component: RegistroComponent
