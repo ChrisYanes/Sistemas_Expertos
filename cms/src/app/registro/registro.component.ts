@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+// import Swal from 'sweetalert2';
 
 declare var $: any;
 
@@ -14,5 +15,11 @@ export class RegistroComponent implements OnInit {
   ngOnInit(): void {
     $("#fecha").val("");
   }
-
+  // aceptarAccion(){
+  //   Swal.fire(
+  //     'Good job!',
+  //     'You clicked the button!',
+  //     'success'
+  //   )
+  // }
 }
