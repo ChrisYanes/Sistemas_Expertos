@@ -12,6 +12,9 @@ import { PrivacityComponent } from './homeboard/privacity/privacity.component';
 import { CodePageComponent } from './homeboard/code-page/code-page.component';
 import { PurchasesComponent } from './homeboard/purchases/purchases.component';
 import { SecurityComponent } from './homeboard/security/security.component';
+import { HomeComponent } from './homeboard/code-page/home/home.component';
+import { PagesComponent } from './homeboard/code-page/web-site/pages/pages.component';
+
 
 //import {  } from 'src/app/';
 const routes: Routes = [
@@ -38,6 +41,12 @@ const routes: Routes = [
   },
   {
     path: 'code-page', component: CodePageComponent
+  },
+  {
+    path: 'home', component: HomeComponent
+  },
+  {
+    path: 'pages', component: PagesComponent
   },
   {
     path:'registro',

@@ -1,1 +1,23 @@
-<p>code-page works!</p>
+<div class="toolbar">
+    <div class="contiene-logo" style="cursor: pointer;" routerLink="/">
+        <img id="logo" alt="Logo" src="../assets/img/57104 (4).png" />
+        <span> DEVIACAT </span>
+    </div>
+
+    <div class="spacer"></div>
+    <div>
+        <a style="margin-left: 60rem;">Usuario</a>
+    </div>
+</div>
+
+
+<div class="sidenav">
+    <a routerLink="/home"><i class="fas fa fa-user"></i> inicio</a>
+    <a routerLink="/configurations"><i class="fas fa fa-cogs"></i> Configuraciones</a>
+    <a routerLink="/privacity"><i class="fas fa fa-eye"></i> Privacidad</a>
+    <a routerLink="/security"><i class="fas fa fa-lock"></i> Seguridad</a>
+    <a routerLink="/purchases"><i class="fas fa fa-credit-card"></i> Compras</a>
+    <a routerLink="/code-page"><i class="fas fa fa-code"></i> Comienza tu página</a>
+    <a id="salir"><i class="fas fa fa-sign-out-alt"></i> Cerrar sesión</a>
+</div>
+<router-outlet></router-outlet>

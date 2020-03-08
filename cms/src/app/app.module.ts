@@ -15,6 +15,9 @@ import { PrivacityComponent } from './homeboard/privacity/privacity.component';
 import { PurchasesComponent } from './homeboard/purchases/purchases.component';
 import { CodePageComponent } from './homeboard/code-page/code-page.component';
 import { SecurityComponent } from './homeboard/security/security.component';
+import { HomeComponent } from './homeboard/code-page/home/home.component';
+import { WebSiteComponent } from './homeboard/code-page/web-site/web-site.component';
+import { PagesComponent } from './homeboard/code-page/web-site/pages/pages.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +33,10 @@ import { SecurityComponent } from './homeboard/security/security.component';
     PrivacityComponent,
     PurchasesComponent,
     CodePageComponent,
-    SecurityComponent
+    SecurityComponent,
+    HomeComponent,
+    WebSiteComponent,
+    PagesComponent
   ],
   imports: [
     BrowserModule,
