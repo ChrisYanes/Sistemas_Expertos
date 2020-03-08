@@ -1,0 +1,146 @@
+.contenedor-purchases{
+    width: Calc(100% - 20rem) !important;
+    margin-left: 20%;
+    /* margin: 40% , 0% !important; */
+    height: Calc(100% - 10rem) !important;
+    overflow-y: scroll;
+    position: absolute;
+    scrollbar-width: thin;
+    scrollbar-color: #13929C #80808052 !important;
+    scrollbar-track-color: #11B6AF !important; 
+       margin-top: 3rem;
+  }
+  /* 
+  #payroll-list{
+      width: 100%;
+      margin: 40% , 0%;
+      height: Calc(100% - 10rem) !important;
+      overflow-y: scroll;
+      position: relative;
+      scrollbar-width: thin;
+      scrollbar-color: #13929C #80808052 !important;
+      scrollbar-track-color: #11B6AF !important;
+   }
+  
+  
+  
+  
+  #dash{
+      max-height: Calc(100% - 20rem) !important;
+    overflow-y: scroll;
+    position: relative;
+     scrollbar-width: thin;
+    scrollbar-color: #11b6af87 #80808052;
+  } */
+  
+  .row {
+      display: -ms-flexbox; /* IE10 */
+      display: flex;
+      -ms-flex-wrap: wrap; /* IE10 */
+      flex-wrap: wrap;
+      margin: 0 -16px;
+    }
+    
+    .col-25 {
+      -ms-flex: 25%; /* IE10 */
+      flex: 25%;
+    }
+    
+    .col-50 {
+      -ms-flex: 50%; /* IE10 */
+      flex: 50%;
+    }
+    
+    .col-75 {
+      -ms-flex: 75%; /* IE10 */
+      flex: 75%;
+    }
+    
+    .col-25,
+    .col-50,
+    .col-75 {
+      padding: 0 16px;
+    }
+    
+    .container {
+      background-color: #f2f2f2;
+      padding: 5px 20px 15px 20px;
+      border: 1px solid lightgrey;
+      border-radius: 3px;
+    }
+    
+    input[type=text] {
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+    
+    label {
+      margin-bottom: 10px;
+      display: block;
+    }
+    
+    .icon-container {
+      margin-bottom: 20px;
+      padding: 7px 0;
+      font-size: 24px;
+    }
+    
+    .btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px;
+      margin: 10px 0;
+      border: none;
+      width: 100%;
+      border-radius: 3px;
+      cursor: pointer;
+      font-size: 17px;
+    }
+    
+    .btn:hover {
+      background-color: #45a049;
+    }
+    
+    span.price {
+      float: right;
+      color: grey;
+    }
+  
+    
+    /*para el select*/
+  select{
+      width: 50%;
+      height:3rem;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      margin-left: 26% !important;
+  }
+  
+  #servicios-compra{
+    background-color: #f5c05e;
+  }
+  
+  a{
+    text-decoration: none !important;
+    color: black !important;
+  }
+  
+  /*Para los <a>*/
+  a:hover{
+    cursor: pointer;
+    font-weight: bold;
+    color: #2b2110;
+  }
+  
+    /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+    /* @media (max-width: 800px) {
+      .row {
+        flex-direction: column-reverse;
+      }
+      .col-25 {
+        margin-bottom: 20px;
+      }
+    } */

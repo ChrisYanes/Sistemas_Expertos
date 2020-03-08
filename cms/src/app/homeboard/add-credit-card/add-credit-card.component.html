@@ -1,0 +1,100 @@
+<app-homeboard></app-homeboard>
+
+<div class="contenedor-dismissed">
+
+    <div class="row">
+        <div class="col-75">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <a routerLink="/purchases/billing-history"><i class="fas fa-arrow-left"></i>  Volver</a>
+                    </div>
+                    <div class="col-sm-6">
+                        Agrega tu tarjeta Aquí
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row" style="margin-top: 1rem;">
+        <div class="col-75">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <span><strong>Nombre del titular de la tarjeta</strong> (tal como aparece en la tarjeta)</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <input type="text">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <span><strong>Número de tarjeta</strong></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <input type="text" placeholder="1234 1234 1234 1234">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <label for=""><strong>Fecha de expiración</strong></label>
+                        <input type="text" placeholder="MM/AA">
+                    </div>
+                    <div class="col-sm-6">
+                        <label for=""><strong>Código de seguridad </strong>("CVC" o "CVV")</label>
+                        <input type="text" placeholder="CVC">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <label for=""><strong>País </strong></label>
+                        <select class="custom-select custom-select-lg">
+                            <option selected>Seleccione...</option>
+                            <option value="1">Argentina</option>
+                            <option value="2">Brasil</option>
+                            <option value="3">España</option>
+                            <option value="4">Honduras</option>
+                            <option value="5">México</option>
+                            <option value="6">Estados Unidos</option>
+                            <option value="7">Francia</option>
+                          </select>
+                    </div>
+                    <div class="col-sm-6">
+                        <label for=""><strong>Código postal</strong></label>
+                        <input type="text">
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <span>
+                        Al guardar una tarjeta de crédito, aceptas nuestras Condiciones del servicio y, si la usas para pagar una suscripción o un plan, nos autorizas a que carguemos regularmente los cobros pertinentes a través de la tarjeta de crédito que hayas elegido hasta que canceles el servicio, cosa que podrás hacer en cualquier momento. Aceptas el funcionamiento de tu suscripción y la forma de cancelarla.
+                    </span>
+                </div>
+
+                <div class="col-sm-12">
+                    <span>
+                        Esta tarjeta se utilizará para futuras renovaciones de compras existentes.
+                    </span>
+                </div>
+                <hr>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <span style="font-style: italic;">Todos los campos son necesarios</span>
+                    </div>
+                    <div class="col-sm-6">
+                        <button type="button">Guardar la tarjeta</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

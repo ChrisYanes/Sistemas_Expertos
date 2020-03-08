@@ -80,6 +80,20 @@
     color: grey;
   }
   
+  #payroll-list{
+    width: Calc(100% - 20rem) !important;
+    margin-left: 20%;
+    /* margin: 40% , 0% !important; */
+    height: Calc(100% - 10rem) !important;
+    overflow-y: scroll;
+    position: absolute;
+    scrollbar-width: thin;
+    scrollbar-color: #13929C #80808052 !important;
+    scrollbar-track-color: #11B6AF !important;
+ }
+
+
+
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
   /* @media (max-width: 800px) {
     .row {

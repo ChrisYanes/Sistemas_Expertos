@@ -14,7 +14,7 @@
         <div class="modal-body">
             <form action="">
                 <div class="input-group">
-                    <span class="input-group-addon"><i class="fas glyphicon-user"></i></span>
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
                     <input id="email" type="text" class="form-control" name="user" placeholder="Nombre de usuario...">
                 </div>
                 <div class="input-group">
@@ -31,7 +31,8 @@
         <div class="modal-footer">
             <div class="row">
                 <div class="col-sm-6">
-                    <button class="btn btn-info">Ingresar</button>
+                    <button class="btn btn-info" (click)="aceptarAccion()">Ingresar</button>  
+                    <!-- (click)="aceptarAccion()" -->
                 </div>
                 <div class="col-sm-6">
                     <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>

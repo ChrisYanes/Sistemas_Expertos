@@ -16,6 +16,11 @@ import { HomeComponent } from './homeboard/code-page/home/home.component';
 import { PagesComponent } from './homeboard/code-page/web-site/pages/pages.component';
 
 
+import { BillingHistoryComponent } from './homeboard/billing-history/billing-history.component';
+import { NextChargesComponent } from './homeboard/next-charges/next-charges.component';
+import { OtherWebsitesComponent } from './homeboard/other-websites/other-websites.component';
+import { AddCreditCardComponent } from './homeboard/add-credit-card/add-credit-card.component';
+
 //import {  } from 'src/app/';
 const routes: Routes = [
   {

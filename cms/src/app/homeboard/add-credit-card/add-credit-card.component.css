@@ -1,4 +1,4 @@
-.contenedor-dash{
+.contenedor-dismissed{
   width: Calc(100% - 20rem) !important;
   margin-left: 20%;
   /* margin: 40% , 0% !important; */
@@ -10,14 +10,6 @@
   scrollbar-track-color: #11B6AF !important; 
      margin-top: 3rem;
 }
-/* 
-#dash{
-    max-height: Calc(100% - 20rem) !important;
-  overflow-y: scroll;
-  position: relative;
-   scrollbar-width: thin;
-  scrollbar-color: #11b6af87 #80808052;
-} */
 
 .row {
     display: -ms-flexbox; /* IE10 */
@@ -38,8 +30,8 @@
   }
   
   .col-75 {
-    -ms-flex: 75%; /* IE10 */
-    flex: 75%;
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
   }
   
   .col-25,

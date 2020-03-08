@@ -1,6 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+//para notificaciones con sweet alert 2
+//import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
@@ -40,7 +43,8 @@ import { PagesComponent } from './homeboard/code-page/web-site/pages/pages.compo
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+  //  SweetAlert2Module.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]

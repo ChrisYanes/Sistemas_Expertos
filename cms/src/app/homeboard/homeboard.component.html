@@ -18,6 +18,15 @@
     <a routerLink="/security"><i class="fas fa fa-lock"></i> Seguridad</a>
     <a routerLink="/purchases"><i class="fas fa fa-credit-card"></i> Compras</a>
     <a routerLink="/code-page"><i class="fas fa fa-code"></i> Comienza tu página</a>
-    <a  id="salir"><i class="fas fa fa-sign-out-alt"></i> Cerrar sesión</a>
+    <a data-toggle="modal" data-target="#myModalLogout" id="salir"><i class="fas fa fa-sign-out-alt"></i> Cerrar sesión</a>
+</div>
+
+
+<!--++++++++++++++++++++++++++++++++++++++++++++++MODAL Logout (contenido en el componente Logout)+++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+<div class="modal fade" id="myModalLogout" role="dialog">
+    <div class="modal-dialog">
+        <app-logout></app-logout>
+    </div>
 </div>
 <router-outlet></router-outlet>
