@@ -1,9 +1,10 @@
+
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { LoginComponent } from 'src/app/login/login.component';
-import { RegistroComponent } from 'src/app/registro/registro.component';
-import { LandingComponent } from './landing/landing.component';
 
+import { LoginComponent } from './login/login.component';
+import { RegistroComponent } from './registro/registro.component';
+import { LandingComponent } from './landing/landing.component';
 import { HomeboardComponent } from './homeboard/homeboard.component';
 import { DashComponent } from './homeboard/dash/dash.component';
 import { ConfigurationsComponent } from './homeboard/configurations/configurations.component';
@@ -14,17 +15,19 @@ import { PurchasesComponent } from './homeboard/purchases/purchases.component';
 import { SecurityComponent } from './homeboard/security/security.component';
 import { HomeComponent } from './homeboard/code-page/home/home.component';
 import { PagesComponent } from './homeboard/code-page/web-site/pages/pages.component';
-
-
 import { BillingHistoryComponent } from './homeboard/billing-history/billing-history.component';
 import { NextChargesComponent } from './homeboard/next-charges/next-charges.component';
 import { OtherWebsitesComponent } from './homeboard/other-websites/other-websites.component';
 import { AddCreditCardComponent } from './homeboard/add-credit-card/add-credit-card.component';
+import { LogoutComponent } from './homeboard/logout/logout.component';
 
 //import {  } from 'src/app/';
 const routes: Routes = [
   {
     path: '', component: LandingComponent
+  },
+  {
+    path: 'homeboard', component: HomeboardComponent
   },
   {
     path: 'dashboard', component: DashComponent
@@ -54,14 +57,26 @@ const routes: Routes = [
     path: 'pages', component: PagesComponent
   },
   {
-    path:'registro',
-    component: RegistroComponent
+    path:'registro', component: RegistroComponent
   },
-  
   {
-    path:'login',
-    component:LoginComponent
+    path:'login', component:LoginComponent
   },
+  {
+    path:'billing-history', component:BillingHistoryComponent
+  },
+  {
+    path:'next-charges', component:NextChargesComponent
+  },
+  {
+    path:'other-websites', component:OtherWebsitesComponent
+  },
+  {
+    path:'add-credit-card', component:AddCreditCardComponent
+  },
+  {
+    path:'logout', component:LogoutComponent
+  }
   // { path: 'home', component: HomeboardComponent, children:[ 
   //   { path: 'dashboard', component: DashComponent},
   // ]}
