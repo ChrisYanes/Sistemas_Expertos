@@ -27,6 +27,7 @@ import {NextChargesComponent} from './homeboard/next-charges/next-charges.compon
 import {OtherWebsitesComponent} from './homeboard/other-websites/other-websites.component';
 import {AddCreditCardComponent} from './homeboard/add-credit-card/add-credit-card.component';
 import { LogoutComponent } from './homeboard/logout/logout.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -52,6 +53,7 @@ import { LogoutComponent } from './homeboard/logout/logout.component';
     OtherWebsitesComponent,
     AddCreditCardComponent,
     LogoutComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

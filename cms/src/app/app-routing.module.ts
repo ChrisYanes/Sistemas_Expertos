@@ -1,4 +1,5 @@
 
+
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
@@ -20,6 +21,7 @@ import { NextChargesComponent } from './homeboard/next-charges/next-charges.comp
 import { OtherWebsitesComponent } from './homeboard/other-websites/other-websites.component';
 import { AddCreditCardComponent } from './homeboard/add-credit-card/add-credit-card.component';
 import { LogoutComponent } from './homeboard/logout/logout.component';
+import {FooterComponent} from './footer/footer.component';
 
 //import {  } from 'src/app/';
 const routes: Routes = [
@@ -76,8 +78,11 @@ const routes: Routes = [
   },
   {
     path:'logout', component:LogoutComponent
+  },
+  {
+    path:'footer', component:FooterComponent
   }
-  // { path: 'home', component: HomeboardComponent, children:[ 
+  // { path: 'home', component: HomeboardComponent, children:[
   //   { path: 'dashboard', component: DashComponent},
   // ]}
   // {

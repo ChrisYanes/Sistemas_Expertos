@@ -1,0 +1,23 @@
+.footer {
+    text-align: center !important;
+    width: 100%;
+    height: 5rem;
+    padding: 2rem;
+    margin-top: 10px;
+    margin-bottom: 0rem;
+    /* align-items: center; */
+    /* background: #FDC830; */
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F37335, #FDC830);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F37335, #FDC830);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-weight: 20;
+    font-family: 'Baloo' !important;
+    font-size: 15px !important;
+    color: #222222;
+    /* padding-right: 15px; */
+    -webkit-box-shadow: 0 10px 5px #a39e9e !important;
+    -moz-box-shadow: 0 10px 5px #a39e9e !important;
+    box-shadow: 0 10px 5px #a39e9e !important;
+}
